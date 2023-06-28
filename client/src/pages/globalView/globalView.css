@@ -1,0 +1,85 @@
+.globalViewContainer {
+  display: flex;
+  gap: 2px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 89%;
+  margin-right: 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px 5px;
+}
+
+.system {
+  border: 1px solid black;
+  padding: 10px 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black; /* Viền chữ nhật đen cho mỗi ô */
+  padding: 8px; /* Khoảng cách giữa nội dung và viền */
+}
+
+thead{
+    background-color: rgb(219, 215, 215);
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  color: blue;
+}
+
+.hostAndProblem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hostAvailability {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  gap: 0;
+}
+
+.level {
+  display: flex;
+  gap: 0;
+  width: 100%;
+}
+
+.box{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border: 1px solid black;
+}
+
+.box1{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-top: 38px;
+    padding-left: 20px;
+    border: 1px solid black;
+}

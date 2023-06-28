@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin-left: 5px;
+    border: 1px solid black;
+    margin-right: 0px;
+    padding-right: 2px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.searchBar{
+    display: flex;
+}
+
+input{
+   width: 125px;
+   border-radius: 5px;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+}
+
+.setting{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.choicebox{
+    padding: 10px 5px;
+    border: 1px solid black;
+}
+
+.dataCollectionOptions.choicebox{
+    justify-content: center;
+}

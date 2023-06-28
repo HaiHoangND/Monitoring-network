@@ -1,0 +1,126 @@
+.hostContainer{
+    display: flex;
+    gap: 2px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.createHost{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: blue;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information1{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+
+.information11{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.template{
+    width: 133px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.information2{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    margin-right: 100px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.anyDisable{
+    display: flex;
+}
+
+.anyDisable1{
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.anyOr{
+    display: flex;
+    margin-right: 143px;
+}
+
+.tagContain{
+    display: flex;
+    gap: 5px;
+    margin-left: 195px;
+    padding: 10px 5px;
+}
+
+.add{
+    padding: 10px 5px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.remove{
+    color: blue;
+}
+
+.confirm{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.table{
+    margin-top: 20px;
+}
